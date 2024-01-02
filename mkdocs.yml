@@ -3,10 +3,10 @@ nav:
     - 'Trang chủ': 'index.md'
     - 'Quản lý tài khoản':
         - 'Đổi mật khẩu': 'setting/account.md'
-theme:
-    name: readthedocs
-    navigation_depth: 100
-    highlightjs: true
+    - 'Tiếp đón': 'appointment/appointment.md'
+theme: readthedocs
+navigation_depth: 100
+highlightjs: true
 extra_css:
     - css/extra.css
 extra_javascript:
