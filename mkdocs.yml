@@ -1,4 +1,14 @@
 site_name: Hmis HDSD
-pages:
-- Home: index.md
-theme: readthedocs
+nav:
+    - 'Trang chủ': 'index.md'
+    - 'Quản lý tài khoản':
+        - 'Đổi mật khẩu': 'setting/account.md'
+theme:
+    name: readthedocs
+    navigation_depth: 100
+    highlightjs: true
+extra_css:
+    - css/extra.css
+extra_javascript:
+    - js/extra.js
+copyright: Prepared by <a href="https://altek.vn/">Altek Group.</a>
